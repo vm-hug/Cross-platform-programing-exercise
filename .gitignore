@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Flutter
+**/.dart_tool/
+**/build/
+
+# Android
+**/android/.gradle/
+**/android/local.properties
+
+# iOS
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/ephemeral/
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.*
+
+**/assets/
