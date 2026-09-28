@@ -76,13 +76,12 @@ class _DicePageState extends State<DicePage> {
               child: ElevatedButton(
                 onPressed: rollDice,
                 style: ElevatedButton.styleFrom(
-                  backgroundColor:
-                      Colors.lightGreenAccent, // Màu vàng nổi bật trên nền đỏ
+                  backgroundColor: Colors.lightGreenAccent,
                   foregroundColor: Colors.black87,
                   elevation: 8.0,
                   shadowColor: Colors.black.withValues(alpha: 0.5),
                   shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(30), // Bo tròn mềm mại
+                    borderRadius: BorderRadius.circular(30),
                   ),
                 ),
                 child: const Text(
